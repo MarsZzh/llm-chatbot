@@ -1,0 +1,164 @@
+:root {
+    /* Cards */
+    --card-font-size: 0.8em;
+    --card-line-height: 1.2em;
+    --card-bg-color: #fafafa;
+    --card-border: 1px solid #f0f0f0;
+
+
+    --primary-btn-bg-color: #007bff;
+}
+
+.message {
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#user-input-text {
+    width: 70%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+body {
+    font-family: Garamond;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.myButton {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #009688;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #EF5350;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+/* Cards */
+
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--card-font-size);
+    line-height: var(--card-line-height);
+    background: var(--card-bg-color);
+    border: var(--card-border);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 5px;
+}
+
+.card.new-card {
+    border: 2px solid var(--primary-btn-bg-color);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.button-section {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
