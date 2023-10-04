@@ -11,14 +11,17 @@
 **[2023/10/04]** 支持基于ChatGLM2-6B进行对话。
 
 ## 界面效果
-<details><summary><b>测试</b></summary>
+
 
 ![](resources/test1.png)
 
-</details>
+![](resources/test2.png)
 
-## 运行
-python run.py
+## 部署
+
+服务器需要一张A10或V100显卡即可
+
+运行 flask --app run.py run --port 8000
 
 ## 友情链接
 * [llm](https://github.com/THUDM/ChatGLM2-6B): 使用的大语言模型
